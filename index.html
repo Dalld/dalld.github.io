@@ -48,18 +48,27 @@
       .contact {
         line-height: 1.5em;
       }
-    </style>
+
+      /* 新增样式，用于垂直水平居中 */
+      .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+ </style>
   </head>
   <body>
-    <div class="container">
-      <div class="avatar">
-        <img src="https://q1.qlogo.cn/g?b=qq&nk=3358575466&s=100" alt="Your Avatar">
-      </div>
-      <h1 class="name">风</h1>
-      <p class="quote">路漫漫其修远兮，吾将上下而求索</p>
-      <div class="contact">
-        <p>Email: info@SeaNorth.cn</p>
-        
+    <div class="wrapper">
+      <div class="container">
+        <div class="avatar">
+          <img src="https://q1.qlogo.cn/g?b=qq&nk=3358575466&s=100" alt="Your Avatar">
+        </div>
+        <h1 class="name">风</h1>
+        <p class="quote">路漫漫其修远兮，吾将上下而求索</p>
+        <div class="contact">
+          <p>Email: info@SeaNorth.cn</p>
+        </div>
       </div>
     </div>
   </body>
